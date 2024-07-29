@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "text": "Complete project proposal",
+      "completed": false,
+      "description": "Draft and finalize the project proposal for the new client",
+      "updatedAt": "2024-07-29T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "text": "Schedule team meeting",
+      "completed": true,
+      "description": "Arrange a team meeting to discuss project timeline",
+      "updatedAt": "2024-07-29T11:30:00Z"
+    }
+  ]
