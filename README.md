@@ -33,10 +33,19 @@ Next.js's `useRouter` hook is used for handling URL parameters and navigation. T
 
 ### File Structure
 
+/app
+/components
+TaskForm.tsx
+TaskList.tsx
+/pages
+index.tsx
+tasks.json
+
+
 
 ### Key Files
 
-- `app/page.tsx`: The main page component that includes the TaskForm and TaskList components and handles the application's state.
+- `app/pages/index.tsx`: The main page component that includes the TaskForm and TaskList components and handles the application's state.
 - `app/components/TaskForm.tsx`: The form component for adding new tasks.
 - `app/components/TaskList.tsx`: The component for displaying, updating, deleting, and toggling tasks.
 - `app/tasks.json`: A static JSON file containing initial task data.
@@ -48,3 +57,16 @@ Next.js's `useRouter` hook is used for handling URL parameters and navigation. T
 ```bash
 git clone https://github.com/your-username/todo-list-app.git
 cd todo-list-app
+
+### Install Dependencies
+npm install
+
+### Run the Application
+npm run dev
+
+
+### Open in Browser
+Open your browser and go to http://localhost:3000 to see the application in action.
+
+
+Feel free to modify this as per your specific implementation details.
